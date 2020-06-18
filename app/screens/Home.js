@@ -9,7 +9,7 @@ import MiniPlayer from '../components/MiniPlayer';
 export default class Home extends React.Component {
   state = {
     isFetching: true,
-    data = null
+    data : null
   }
 
   async componentWillMount(){
